@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;}
+
+nav {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .right {
+    margin-right: 40px;
+    justify-content: space-around;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+    display: inline;
+    color: white;
+}
+
+.right a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+nav .left {
+    margin-left: 40px;
+    justify-content: space-around;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 40px;
+}
+
+.contact-logos a {
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+main {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    /* margin-left: 50px; */
+}
+
+.home {
+    font-size: larger;
+    max-width: 600px;
+}
+
+.btn button {
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    font-size: 25px;
+    margin-top: 15px;
+    color: white;
+    background: #3b58a7;
+    border-color: #3b58a7;
+    border-radius: 10px;
+    width: 150px;
+    height: 100%;
+}
+.profile {
+    display: flex;
+    float: right;
+    justify-content: right;
+  
+
+}
+
+.home h3 {
+    color: #3b58a7;
+}
+
+.profile img {
+    border: 4px solid  #3b58a7;
+    border-radius: 50% 20% / 10% 40%;
+   width: 783px;
+    display: inline-flex;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: #3b58a7;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover {
+    color: white;
+}
+
+a:hover:after {
+    width: 100%;
+
+}
+
