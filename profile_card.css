@@ -54,11 +54,12 @@ nav {
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
 }
 
-.container h2 {
+.container .at a {
     display: flex;
     justify-content: center;
     font-size: 11px;
     margin-top: 4px;
+    color: black;
 }
 
 .container p {
