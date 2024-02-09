@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+body {
+    background-color: black;
+}
+
+main {
+    margin-top: 50px;
+    display:flex ;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+button {
+    height: 80px;
+    width: 130px;
+    background-color:rgb(28, 27, 28) ;
+    
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}

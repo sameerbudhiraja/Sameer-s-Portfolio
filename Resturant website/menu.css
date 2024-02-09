@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  rgb(28, 27, 28);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    color: whitesmoke;
+    margin-top: 20px;
+}
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    height: 730px;
+    width: 680px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    height: 75px;
+}
+
+.top h1 {
+    transition-property: background-color;
+    transition-property: border;
+    transition-property: border-radius;
+    transition-property: color;
+    transition-duration: 1.5s;
+    background-color: brown;
+}
+
+.top h1:hover,
+.top h1:focus {
+    background-color: beige;
+    color: black;
+    border-radius: 30%;
+    border: 3px solid black;
+}
+
+.top h1 {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: whitesmoke;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.top img {
+    display: flex;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    height: 117px;
+    width: 123px;
+    margin-top: 4px;
+    border: 2px solid;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* background-color: aquamarine; */
+    height: 550px;
+    width: 680px;
+    flex-direction: column;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 275px;
+    width: 676px;
+    margin-top: 50px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 275px;
+    width: 676px;
+}
+
+.up h2 {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.up pre {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.down h2 {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.down pre {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.contact a {
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact #instagram {
+    margin-top: 2px;
+}
